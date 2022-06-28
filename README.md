@@ -1,1 +1,0 @@
-# Python-Pattern-Programs
