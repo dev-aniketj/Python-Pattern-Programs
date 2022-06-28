@@ -1,10 +1,4 @@
 """
-Developer : Aniket Jain
-Github : aniketjain8441
-LinkedIn : www.linkedin.com/in/aniket-jain-80355a211/
-"""
-
-"""
 Pattern 10
 
 1 1 2 1 3 1

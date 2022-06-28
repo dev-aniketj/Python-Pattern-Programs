@@ -1,10 +1,4 @@
 """
-Developer : Aniket Jain
-Github : aniketjain8441
-LinkedIn : www.linkedin.com/in/aniket-jain-80355a211/
-"""
-
-"""
 Pattern 7
 
  1  3  5  7  9
