@@ -9,9 +9,9 @@ Pattern 12
 
 """
 
-for x in range(1, 6):
-    count = x
-    for y in range(1, 6):
+for i in range(1, 6):
+    count = i
+    for j in range(1, 6):
         print('{:2d}'.format(count), end=' ')
         count += 5
     print()
