@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 7
 
  1  3  5  7  9
@@ -7,11 +7,12 @@ Pattern 7
 31 33 35 37 39
 41 43 45 47 49
 
-"""
+'''
 
+n = 5
 count = 1
-for i in range(1, 6):
-    for j in range(1, 6):
+for i in range(1, n+1):
+    for j in range(1, n+1):
         print('{:2d}'.format(count), end=' ')
         count += 2
     print()

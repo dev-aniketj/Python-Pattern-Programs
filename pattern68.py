@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 68
 
 E
@@ -7,9 +7,10 @@ C C C
 B B B B
 A A A A A
 
-"""
+'''
 
-for i in range(69, 64, -1):
-    for j in range(69, i-1, -1):
+n = 5
+for i in range(64+n, 64, -1):
+    for j in range(64+n, i-1, -1):
         print(chr(i), end=' ')
     print()

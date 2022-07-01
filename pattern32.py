@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 32
 
 A F K P U
@@ -7,11 +7,12 @@ C H M R W
 D I N S X
 E J O T Y
 
-"""
+'''
 
-for i in range(5):
+n = 5
+for i in range(n):
     ch = 65 + i
-    for j in range(5):
+    for j in range(n):
         print(chr(ch), end=' ')
-        ch += 5
+        ch += n
     print()

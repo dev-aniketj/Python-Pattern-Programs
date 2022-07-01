@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 30
 
 A B C D E
@@ -7,11 +7,12 @@ K L M N O
 P Q R S T
 U V W X Y
 
-"""
+'''
 
 ch = 65
-for i in range(5):
-    for j in range(5):
+n = 5
+for i in range(n):
+    for j in range(n):
         print(chr(ch), end=' ')
         ch += 1
     print()

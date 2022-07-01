@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 26
 
 A A A A A
@@ -7,9 +7,10 @@ C C C C C
 D D D D D
 E E E E E
 
-"""
+'''
 
-for i in range(65, 70):
-    for j in range(1, 6):
+n = 5
+for i in range(65, 65+n):
+    for j in range(n):
         print(chr(i), end=' ')
     print()

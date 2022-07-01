@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 13
 
  1 10 11 20 21
@@ -7,12 +7,13 @@ Pattern 13
  4  7 14 17 24
  5  6 15 16 25
 
-"""
+'''
 
-for i in range(1, 6):
+n = 5
+for i in range(1, n+1):
     t1 = i
     t2 = 5 - i + 1
-    for j in range(1, 6):
+    for j in range(1, n+1):
         if j % 2 == 1:
             print('{:2d}'.format(t1), end=' ')
         else:

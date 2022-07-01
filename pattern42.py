@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 42
 
 1
@@ -7,9 +7,10 @@ Pattern 42
 4 5 6 7
 5 6 7 8 9
 
-"""
+'''
 
-for i in range(5):
+n = 5
+for i in range(n):
     for j in range(i+1):
         print(i+j+1, end=' ')
     print()

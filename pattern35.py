@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 35
 
 1
@@ -7,9 +7,10 @@ Pattern 35
 4 4 4 4
 5 5 5 5 5
 
-"""
+'''
 
-for i in range(1, 6):
+n = 5
+for i in range(1, n+1):
     for j in range(i):
         print(i, end=' ')
     print()

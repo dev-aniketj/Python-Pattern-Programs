@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 75
 
 5 4 3 2 1
@@ -7,9 +7,10 @@ Pattern 75
 8 7
 9
 
-"""
+'''
 
-for i in range(5):
-    for j in range(5, i, -1):
+n = 5
+for i in range(n):
+    for j in range(n, i, -1):
         print(j+i, end=' ')
     print()

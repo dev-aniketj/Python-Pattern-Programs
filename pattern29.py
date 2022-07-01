@@ -1,15 +1,16 @@
-"""
+'''
 Pattern 29
 
-E E E E E
-D D D D D
-B B B B B
-C C C C C
-A A A A A
+E D C B A
+E D C B A
+E D C B A
+E D C B A
+E D C B A
 
-"""
+'''
 
-for i in 'EDBCA':
-    for j in range(5):
-        print(i, end=' ')
+n = 5
+for i in range(n):
+    for j in range(65+n-1, 64, -1):
+        print(chr(j), end=' ')
     print()

@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 27
 
 A B C D E
@@ -7,9 +7,10 @@ A B C D E
 A B C D E
 A B C D E
 
-"""
+'''
 
-for i in range(5):
-    for j in 'ABCDE':
-        print(j, end=' ')
+n = 5
+for i in range(n):
+    for j in range(65, 65+n):
+        print(chr(j), end=' ')
     print()

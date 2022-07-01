@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 2
 
 1 1 1 1 1
@@ -7,9 +7,10 @@ Pattern 2
 4 4 4 4 4
 5 5 5 5 5
 
-"""
+'''
 
-for i in range(1, 6):
-    for j in range(1, 6):
+n = 5
+for i in range(1, n+1):
+    for j in range(1, n+1):
         print(i, end=' ')
     print()

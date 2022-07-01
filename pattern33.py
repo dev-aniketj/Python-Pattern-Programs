@@ -1,4 +1,4 @@
-"""
+'''
 Pattern 33
 
 E J O T Y
@@ -7,11 +7,12 @@ C H M R W
 B G L Q V
 A F K P U
 
-"""
+'''
 
-for i in range(1, 6):
+n = 5
+for i in range(1, n+1):
     ch = 65
-    for j in range(5):
-        print(chr(ch + 5 - i), end=' ')
-        ch += 5
+    for j in range(n):
+        print(chr(ch + n - i), end=' ')
+        ch += n
     print()
